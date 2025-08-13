@@ -59,13 +59,13 @@ This backend is built with enterprise-grade technologies:
 
 ## 🖼️ Screenshots
 
-### GoldWalletApplication SwaggerUI
+### GoldWalletRESTApplication SwaggerUI
 
-![GoldWallet SwaggerUI](images/SwaggerUI.png)
+![GoldWalletREST SwaggerUI](images/SwaggerUI.png)
 
-### GoldWalletApplication ER Diagram
+### GoldWalletRESTApplication ER Diagram
 
-![GoldWallet ER Diagram](images/ER-Diagram.png)
+![GoldWalletREST ER Diagram](images/ER-Diagram.png)
 
 ---
 

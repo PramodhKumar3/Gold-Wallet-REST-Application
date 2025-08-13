@@ -78,8 +78,8 @@ GoldWalletRestMonolithApplication/
  ├── src/
  │   ├── main/
  │   │   ├── java/com/...      # Controllers, Services, Repositories, Entities (domain logic)
- │   │   ├── resources/
- │   │   │   └── application.properties # Main configuration file
+ │   │   └── resources/
+ │   │       └── application.properties # Main configuration file
  │   └── test/                 # Unit and integration tests
  ├── pom.xml                   # Maven dependencies and build configuration
  ├── Dockerfile (if present)   # For containerization

@@ -334,49 +334,6 @@ Ctrl+O -> Enter -> Ctrl+X
 2. Enter
 3. Ctrl+X -> to save and exit
 
-**Deployment YAML:**
-
-```yaml
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: gold-wallet-rest-deployment
-  labels:
-    app: gold-wallet-rest-app
-spec:
-  replicas: 5
-  selector:
-    matchLabels:
-      app: gold-wallet-rest-app
-  template:
-    metadata:
-      labels:
-        app: gold-wallet-rest-app
-    spec:
-      containers:
-        - name: gold-wallet-rest-cont
-          image: pramodhkumar3/gold-wallet-rest-image:0.0.1
-          ports:
-            - containerPort: 8086
-```
-
-**Service YAML:**
-
-```yaml
-apiVersion: v1
-kind: Service
-metadata:
-  name: gold-wallet-rest-service
-spec:
-  selector:
-    app: gold-wallet-rest-app
-  ports:
-    - protocol: TCP
-      port: 8091
-      targetPort: 8086
-  type: LoadBalancer
-```
-
 ---
 
 **Usage Notes:**
